@@ -64,6 +64,8 @@ data:
         - "./.data/mariadb:/var/lib/mysql"
 ```
 
+and then, access from web browser to ``http://<Hostname(IP Address)>:8080`` and sign-in with initial account. username: ``root`` password: ``root``
+
 ## Contributing
 
 We'd love for you to contribute to this container. You can request new features by creating an [issue](https://github.com/nutsllc/toybox-gitbucket/issues), or submit a [pull request](https://github.com/nutsllc/toybox-gitbucket/pulls) with your contribution.

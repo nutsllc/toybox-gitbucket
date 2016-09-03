@@ -1,6 +1,6 @@
 # GitBucket on Docker
 
-A Dockerfile for deploying a GitBucket which is a GitHub API compatible Git platform using Docker container.
+A Dockerfile for deploying a [GitBucket](https://github.com/gitbucket/gitbucket) which is a GitHub API compatible Git platform using Docker container.
 
 This image is registered to the [Docker Hub](https://hub.docker.com/r/nutsllc/toybox-gitbucket/) which is the official docker image registory.
 
@@ -65,6 +65,10 @@ data:
 ```
 
 and then, access from web browser to ``http://<Hostname(IP Address)>:8080`` and sign-in with initial account. username: ``root`` password: ``root``
+
+## License
+
+* [GitBucket](https://github.com/gitbucket/gitbucket) Apache 2.0
 
 ## Contributing
 

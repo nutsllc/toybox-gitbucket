@@ -4,6 +4,8 @@ A Dockerfile for deploying a [GitBucket](https://github.com/gitbucket/gitbucket)
 
 This image is registered to the [Docker Hub](https://hub.docker.com/r/nutsllc/toybox-gitbucket/) which is the official docker image registory.
 
+In addition, this image is compatible with [ToyBox](https://github.com/nutsllc/toybox) complytely to manage the applications on Docker.
+
 ## What is the GitBucket
 
 >GitBucket is a Git platform powered by Scala offering:
@@ -64,7 +66,7 @@ data:
         - "./.data/mariadb:/var/lib/mysql"
 ```
 
-and then, access from web browser to ``http://<Hostname(IP Address)>:8080`` and sign-in with initial account. username: ``root`` password: ``root``
+Then open your web browser and access to ``http://<Hostname(IP Address)>:8080`` and sign-in with ``root``/``root``
 
 ## License
 
